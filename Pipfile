@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+jupyter = "*"
+sqlalchemy = "*"
+jupyter-contrib-nbextensions = {file = "https://github.com/ipython-contrib/jupyter_contrib_nbextensions/tarball/master"}
+jupyter-nbextensions-configurator = "*"
+
+[requires]
+python_version = "3.7"
